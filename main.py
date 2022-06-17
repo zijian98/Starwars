@@ -6,8 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 import schedule
 
-userID = "ZLOON001"  # Enter username
-password = "P@sSw1rd98"  # Enter password
+userID = "Enter here"  # Enter username
+password = "Enter here"  # Enter password
 browser = webdriver.Chrome()
 browser.get('https://wish.wis.ntu.edu.sg/pls/webexe/ldap_login.login?w_url=https://wish.wis.ntu.edu.sg/pls/webexe'
             '/aus_stars_planner.main')
